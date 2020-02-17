@@ -86,22 +86,22 @@ class Landing extends Component {
                                                         <AnchorLink className="nav-link" href='#img-bg'>Home</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#feature'>Features</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#about'>About</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#demo'>Demo</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#services'>Services</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#admin'>Admin</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#initiatives'>Initiatives</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#email'>Email Templates</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#contact'>Contact Us</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#core'>Core Features</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#blog'>"The Luxe Report"</AnchorLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <AnchorLink className="nav-link" href='#footer'>Footer</AnchorLink>
+                                                        <AnchorLink className="nav-link" href='#boutique'>Boutique</AnchorLink>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -178,19 +178,18 @@ class Landing extends Component {
                     </div>
                 </section>
 
-                {/*Features section*/}
-                <section id="feature" className="section-lr section-b-space feature-section">
+                {/*About section*/}
+                <section id="about" className="section-lr section-b-space about-section">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-12">
-                                <div className="feature text-center">
+                                <div className="about text-center">
                                     <div>
-                                        <h5 className="title-landing">Reasones to Buy Multikart</h5>
-                                        <p className="pb-3">Multikart HTML template is an apparently simple but highly
-                                            functional tempalate
-                                            designed for
-                                            creating
-                                            a flourisahing online business.
+                                        <h5 className="title-landing">Welcome to Luxe Health Pharmacy...</h5>
+                                        <p className="pb-3">Luxe Health was created and developed with one simple goal in mind.  
+                                        Providing A Luxurious Path To Holisistic Health!  That one simple tenet is behind every 
+                                        service, product, event, and action that we take.  We look forward to being your partner
+                                        on this life long journey to wellness.
                                         </p>
                                     </div>
                                 </div>
@@ -352,16 +351,16 @@ class Landing extends Component {
                     </div>
                 </section>
 
-                {/*Demo section*/}
-                <section id="demo" className="section-b-space section-lr main-demo">
+                {/*Services section*/}
+                <section id="services" className="section-b-space section-lr main-demo">
                     <div className="container-fluid">
                         <Tabs className="theme-tab">
                             <TabList className="tabs tab-title">
-                                <Tab>Home</Tab>
-                                <Tab>Product</Tab>
-                                <Tab>Shop</Tab>
-                                <Tab>Other</Tab>
-                                <Tab>Blog</Tab>
+                                <Tab>Pharmacy</Tab>
+                                <Tab>Subscription</Tab>
+                                <Tab>Botique</Tab>
+                                <Tab>Delivery</Tab>
+                                <Tab>Consultation</Tab>
                             </TabList>
 
                             <TabPanel>
@@ -721,13 +720,13 @@ class Landing extends Component {
                 </section>
 
 
-                <section id="admin" className="section-b-space pt-0">
+                <section id="initiatives" className="section-b-space pt-0">
                     <div className="container">
                         <div className="row">
                             <div className="col">
                                 <div className="admin-title section-t-space pb-0">
                                     <div className="text-center">
-                                        <h4>E-commerce admin template</h4>
+                                        <h4>Check out our current Initiatives</h4>
                                     </div>
                                 </div>
                             </div>
@@ -763,8 +762,8 @@ class Landing extends Component {
      
 
 
-                {/*Email Template section*/}
-                <section id="email" className="section-b-space email-section">
+                {/*Contact Us section*/}
+                <section id="contact" className="section-b-space email-section">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3 left-part">
@@ -776,9 +775,9 @@ class Landing extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 offset-md-1 text-center center-part">
-                                <h5 className="title-landing">email template</h5>
-                                <p className="pb-3">Multikart come with 4+ email template which include two order
-                                    success template & two email template </p>
+                                <h5 className="title-landing">Please Reach out to us</h5>
+                                <p className="pb-3">We are more than happy to take all your questions and concerns via your favorite way to 
+                                communicate.  Call, text, email, chat, or even send us a letter.  We can't wait to hear from you! </p>
                                 <img src={`${process.env.PUBLIC_URL}/assets/images/landing-page/email%20template/2.jpg`} alt=""
                                     className="img-fluid lazyload email-img full-img" />
                                 <div className="res-img">
@@ -795,8 +794,8 @@ class Landing extends Component {
                 </section>
 
 
-                {/*core feature section*/}
-                <section id="core" className="main-feature section-b-space">
+                {/*"The Luxe Report" feature section*/}
+                <section id="blog" className="main-feature section-b-space">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-center">
@@ -1003,8 +1002,8 @@ class Landing extends Component {
                     </div>
                 </section>
 
-                {/*Footer section*/}
-                <section id="footer" className="section-b-space grey-bg footer">
+                {/*Boutique section*/}
+                <section id="boutique" className="section-b-space grey-bg footer">
                     <div className="container">
                         <div className="row">
                             <div className="col">
@@ -1017,8 +1016,8 @@ class Landing extends Component {
                                             <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                             <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                         </ul>
-                                        <h2>purchase the multikart <br />
-                                            & create beautiful online store</h2>
+                                        <h2>Take a gander in our Boutique<br />
+                                            & spoil yourself with the best products we could find!</h2>
                                         <a target="_blank"
                                             href="https://themeforest.net/item/multikart-responsive-react-ecommerce-template/23067773?s_rank=3"
                                             className="btn btn-primary">purchase now</a>
