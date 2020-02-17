@@ -32,7 +32,7 @@ class FooterOne extends Component {
                                     <div className="subscribe">
                                         <div>
                                             <h4>KNOW IT ALL FIRST!</h4>
-                                            <p>Never Miss Anything From Multikart By Signing Up To Our Newsletter. </p>
+                                            <p>Never Miss Anything From Luxe Health, Inc. By Signing Up For "The Luxe Report". </p>
                                         </div>
                                     </div>
                                 </div>
@@ -60,8 +60,7 @@ class FooterOne extends Component {
                                     <div className="footer-logo">
                                         <LogoImage logo={this.props.logoName} />
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                    <p>Providing a luxurious path to wellness... </p>
                                     <div className="footer-social">
                                         <ul>
                                             <li>
@@ -121,12 +120,11 @@ class FooterOne extends Component {
                                     </div>
                                     <div className="footer-contant">
                                         <ul className="contact-list">
-                                            <li><i className="fa fa-map-marker"></i>Multikart Demo Store, Demo store
-                                                India 345-659
+                                            <li><i className="fa fa-map-marker"></i>Luxe Health Pharmacy (Boca Raton, FL)
                                             </li>
-                                            <li><i className="fa fa-phone"></i>Call Us: 123-456-7898</li>
+                                            <li><i className="fa fa-phone"></i>Call Us: 561-555-5555</li>
                                             <li><i className="fa fa-envelope-o"></i>Email Us: <a
-                                                href="#">Support@Fiot.com</a></li>
+                                                href="#">luxehealthinc@gmail.com</a></li>
                                             <li><i className="fa fa-fax"></i>Fax: 123456</li>
                                         </ul>
                                     </div>

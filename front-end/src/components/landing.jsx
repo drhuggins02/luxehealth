@@ -110,7 +110,7 @@ class Landing extends Component {
                                     <div>
                                         <form target="_blank" className="form-inline my-lg-0"
                                             action="https://themeforest.net/item/multikart-responsive-react-ecommerce-template/23067773">
-                                            <button className="btn my-sm-0 purchase-btn">PURCHASE</button>
+                                            <button className="btn my-sm-0 purchase-btn">New Patients</button>
                                         </form>
                                     </div>
                                 </div>
@@ -124,8 +124,8 @@ class Landing extends Component {
                     <div className="container-fluid">
                         <div className="main-contain">
                             <div>
-                                <h1 className="m-0">MULTI<span>KART</span></h1>
-                                <h3 className="m-0">The <span>BEST SELLING</span> Minimal Theme</h3>
+                                <h1 className="m-0">LUXE<span>HEALTH</span></h1>
+                                <h3 className="m-0">The <span>BEST PHARMACY</span> Every Created</h3>
                                 <img src={`${process.env.PUBLIC_URL}/assets/images/landing-page/text.png`} alt="" className="img-fluid" />
                             </div>
                         </div>
